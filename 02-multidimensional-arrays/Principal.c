@@ -1,3 +1,9 @@
+/*O estudante deverá escrever o arquivo Matriz.c com todas as funções definidas no arquivo Matriz.h. Para que o sistema possa avaliar seu código, é crucial que a função para imprimir a matriz esteja implementada. A impressão deve separar os elementos de cada coluna com um espaçamento simples e os elementos de cada linha com uma quebra de linha.
+
+As leituras e impressões de tela já são realizadas pelo programa Principal.c. Elabore as funções de modo que sejam devidamente interpretadas pelo programa principal.
+
+Observações: O estudante deve focar em escrever o arquivo Matriz.c, preservando o arquivo Principal.c e o arquivo Matriz.h. Contudo, pequenas modificações poderão ser realizadas nos demais arquivos caso o estudante julgue necessário.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "Matriz.h"

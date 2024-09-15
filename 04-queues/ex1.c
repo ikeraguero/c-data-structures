@@ -1,3 +1,17 @@
+/* Construa um programa com as seguintes opções:
+
+1 – Incluir nova letra na fila
+
+2 – Excluir uma letra da fila
+
+3 – Imprimir a letra do início da fila
+
+4 – Imprimir a letra do fim da fila
+
+5 – Imprimir todas as letras da fila
+
+6 – Excluir todos as letras da fila*/
+
 #include <stdio.h>
 #define TAMANHO 20
 

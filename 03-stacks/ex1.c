@@ -1,3 +1,15 @@
+/*Construa um programa com as seguintes opções:
+
+1 – Incluir nova letra na pilha
+
+2 – Excluir a letra do topo da pilha
+
+3 – Imprimir a letra do topo da pilha
+
+4 – Imprimir todas as letras da pilha
+
+5 – Excluir todas as letras da pilha*/
+
 #include <stdio.h>
 #define TAMANHO 20
 

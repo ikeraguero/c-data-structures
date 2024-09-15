@@ -1,3 +1,15 @@
+/*O estudante deverá se utilizar de uma estrutura condicional capaz de executar 10 (dez) blocos independentes de código, obedecendo a seguinte ordem para cada opção numérica fornecida como entrada: 
+
+1–)  Leia um número inteiro, se o número for PAR imprima 'PAR', do contrário imprima 'ÍMPAR'
+
+2–)  Leia um número inteiro, se o número for PRIMO imprima 'PRIMO', do contrário imprima 'COMPOSTO'
+
+3–)  Leia quatro números reais (no intervalo de 0 até 10), e calcule a média. Informe se a média é de um aluno: Aprovado, Reprovado ou Exame
+
+4–) Leia 3 (três) números inteiros positivos e informe se um triângulo construído com essas medidas seria: Equilátero, Isósceles ou Escaleno.
+
+5–)  Leia um número inteiro menor que 10, e calcule e informe o seu fatorial.*/
+
 #include <stdio.h>
 
 int main() {
