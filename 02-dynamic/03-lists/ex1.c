@@ -1,3 +1,35 @@
+/*Construa um programa com as seguintes opções:
+
+1 – Incluir letra no início
+
+2 – Remover letra do início
+
+3 – Incluir letra no fim
+
+4 – Excluir letra do fim
+
+5 – Imprimir a letra do início
+
+6 – Imprimir a letra do fim 
+
+7 – Imprimir todas as letras da lista
+
+8 – Excluir todos as letras da lista
+
+9 - Incluir letra em uma determinada posicao
+
+10 - Remover letra de uma determinada posicao
+
+11 - Remover a primeira ocorrencia de uma letra a partir do inicio
+
+12 - Remover a primeira ocorrencia de uma letra a partir do fim
+
+Observação: O exercício deverá ser entregue com todas as funcionalidades exigidas. O VPL só poderá avaliar o código, uma vez que a operação "7-imprimir tudo" esteja funcionando corretamente. Os dados devem ser impressoes de maneira LISTADA (uma letra do lado da outra com  um espaçamento simples de distância).
+
+A estrutura ser dinâmica e ao tentar remover elementos da fila vazia, deve ser informada a seguinte mensagem "Lista vazia".
+
+O código deve ter um loop com as opções do menu, ao ser digitada uma opção inválida, o código deve encerrar. Lembresse de comentar os printfs caso o código não esteja avaliando. */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -49,7 +81,7 @@ char remover_inicio(Lista *l) {
     l->inicio = l->inicio->proximo;
 
     if (l->inicio == NULL) {
-        l->final = NULL;  // Se a lista ficou vazia
+        l->final = NULL; 
     }
 
     free(auxiliar);
@@ -87,7 +119,7 @@ char excluir_fim(Lista *l) {
 
     char valor = auxiliar->dados;
 
-    if (anterior == NULL) {  // A lista só tem um elemento
+    if (anterior == NULL) { 
         l->inicio = NULL;
         l->final = NULL;
     } else {
@@ -336,6 +368,6 @@ int main() {
         }
     } while (num != 0);
 
-    excluir_letras_lista(lista);  // Certifique-se de liberar a memória no final
+    excluir_letras_lista(lista);  
     free(lista);
 }
